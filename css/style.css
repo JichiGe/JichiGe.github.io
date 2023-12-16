@@ -570,137 +570,19 @@ mark.cross {
   filter: brightness(90%);
 }
 
-/* Azure Storage Explorer*/
-#project_storage_explorer {
-    background: url('https://Simond.com/img/storage_explorer.jpg');
+
+
+/* project_Incidents_database */
+#project_Incidents_database {
+    background: url('../img/flight.jpg');
     background-size: cover;
     background-position: center center;
     transition: all 0.3s ease;
 }
 
-/* Raincloud */
-#project_raincloud {
-    background: url('../img/raincloud.jpg');
-    background-size: cover;
-    background-position: center center;
-    transition: all 0.3s ease;
-}
-
-/* Sadaham Sisila */
-#project_sadahamsisila {
-    background: url('../img/sadahamsisila.jpg');
-    background-size: cover;
-    background-position: center center;
-    transition: all 0.3s ease;
-}
-
-/* BoomTown Fusion Eatery */
-#project_boomtown {
-    background: url('../img/boomtown.jpg');
-    background-size: cover;
-    background-position: center center;
-    transition: all 0.3s ease;
-}
-
-/* Lux */
-#project_lux {
-    background: url('../img/lux.jpg');
-    background-size: cover;
-    background-position: center center;
-    transition: all 0.3s ease;
-}
-
-/* Crypto Labs */
-#project_cryptolabs {
-    background: url('../img/crypto-labs-1.png');
-    background-size: cover;
-    background-position: center center;
-    transition: all 0.3s ease;
-}
-
-/* To-Do list */
-#project_todo {
-    background: url('https://Simond.com/img/to-do.jpg');
-    background-size: cover;
-    background-position: center center;
-    transition: all 0.3s ease;
-}
-
-/* Quiz */
-#project_reactquiz {
-    background: url('../img/quiz.jpg');
-    background-size: cover;
-    background-position: center center;
-    transition: all 0.3s ease;
-}
-
-/* HEX Colour Changer */
-#project_hex {
-    background: url('https://Simond.com/img/colorchanger.jpg');
-    background-size: cover;
-    background-position: center center;
-    transition: all 0.3s ease;
-}
-
-/* Personal Website Progression */
-#project_personalprogress {
-    background: url('https://Simond.com/img/website_progression.jpg');
-    background-size: cover;
-    background-position: center center;
-    transition: all 0.3s ease;
-}
-
-/* Image Filtering Program */
-#project_imagefiltering {
-    background: url('../img/imagefiltering.jpg');
-    background-size: cover;
-    background-position: center center;
-    transition: all 0.3s ease;
-}
-
-/* Tic Tac Toe */
-#project_tictactoe {
-    background: url('../img/tictactoe.jpg');
-    background-size: cover;
-    background-position: center center;
-    transition: all 0.3s ease;
-}
-
-/* Instagram redesign */
-#project_instagram {
-    background: url('../img/login-page.jpg');
-    background-size: cover;
-    background-position: center center;
-    transition: all 0.3s ease;
-}
-
-/* Cyberpunk 2077 Web Re-Design */
-#project_cp2077design {
-    background: url('../img/cpredesign.jpg');
-    background-size: cover;
-    background-position: center center;
-    transition: all 0.3s ease;
-}
-
-/* AlienWare Case Mod */
-#project_alienware {
-    background: url('../img/casemod.jpg');
-    background-size: cover;
-    background-position: center center;
-    transition: all 0.3s ease;
-}
-
-/* MIDI Keyboard Covers*/
-#project_midi {
-    background: url('../img/midi.jpg');
-    background-size: cover;
-    background-position: center center;
-    transition: all 0.3s ease;
-}
-
-/* Cyberpunk 2077 Art*/
-#project_cp2077art {
-    background: url('../img/cp2077art.jpg');
+/* project_Urban_Route_Optimization */
+#project_Urban_Route_Optimization {
+    background: url('../img/city.jpg');
     background-size: cover;
     background-position: center center;
     transition: all 0.3s ease;
