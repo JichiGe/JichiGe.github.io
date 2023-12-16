@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Jichi Ge - Home</title>
+        <meta name="description" content="Hi there! My name is Jichi Ge and welcome to my personal website! I'm a Software Engineering student at Carleton University who is interested in front-end development and design.">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="author" content="Jichi Ge">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="icon" type="image/png" href="JichiLogo.jpg"/>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+    </head>
+    <body>
+
+        <!--Jichi Ge background-->
+        <section class="background">
+            <main>
+                <div class="mountains"><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 637 56">
+                        <g>
+                            <path d="M1442,238.7l47.324-18.5,15.852,10.339,31.525,4.064,28.067-9.085,40.007,5.021,44.176-5.021,43.54-5.318,35.64-19.087,28.315-2.38,16.769-5.522,22.2,15.886,32.527,4.37,8.29-4.37,20.552-1.979,12.426-8.385,68.581,14.733,13.666,12.55,35.66-2.649,30.294,8.446,31.5-8.446h6.278l3.432,5.8,21.256,2.649v14.256H1442Z" transform="translate(-1442 -191)" fill="#180727"></path>
+                        </g>
+                    </svg></div>
+                <!--<div class="moon"></div>-->
+                <div class="plane">
+                    <div class="vlines">
+                        <div class="left">
+                            <div class="line"></div>
+                            <div class="line"></div>
+                            <div class="line"></div>
+                            <div class="line"></div>
+                            <div class="line"></div>
+                        </div>
+                        <div class="right">
+                            <div class="line"></div>
+                            <div class="line"></div>
+                            <div class="line"></div>
+                            <div class="line"></div>
+                            <div class="line"></div>
+                        </div>
+                    </div>
+                    <div class="lines">
+                        <div class="line"></div>
+                        <div class="line"></div>
+                        <div class="line"></div>
+                        <div class="line"></div>
+                        <div class="line"></div>
+                        <div class="line"></div>
+                        <div class="line"></div>
+                        <div class="line"></div>
+                        <div class="line"></div>
+                        <div class="line"></div>
+                    </div>
+                </div>
+            </main>
+        </section>
+        
+        <!--Audio-->
+
+        <!-- <audio loop id="myTune" src="audio/music.mp3"></audio>
+        <audio loop id="myTune" src="audio/music.ogg"></audio>
+        <button class="play_pause" type="button" onclick="aud_play_pause()">Play/Pause</button> -->
+
+        <!--Jichi Ge Header and Tagline-->
+        <section class="intro">
+            <div class="intro_wrapper">
+                <div class="intro_header">
+                    <h5>Jichi</h5>
+                </div>
+            </div>
+            <div class="intro_tagline">
+                <h6 class="line2">GE</h6>
+            </div>
+        </section>
+
+        <!--About section-->
+        <section class="about" id="about">
+            <div class="main_about_wrapper">
+                <div id="about_wrapper" class="box">
+                    <h1 id="section_num">01</h1>
+                    <h2 id="about_header">Hello there!<br>My name is <mark class="name">Jichi Ge</mark></h2>
+                </div>
+                <div id="spacer" class="box"></div>
+                <div id="about_desc_wrapper" class="box">
+                    <h4 id="about_info">It's nice to see you. I hope you are well.<br><br>My name is <mark class="bold">Jichi Ge and </mark>
+                        <br>I'm a <mark class="bold">Computer Science</mark><br> student at Northeastern University.</mark></mark>
+                        <br><br><a href="assets/Jichi_Ge_Resume.pdf" target="_blank">
+                            <mark class="bold2">View my resume</mark></a>.</mark></h4>
+                </div>
+            </div>
+        </section>
+        
+        <!--Projects section-->
+        <section class="projects" id="projects">
+            <div class="main_projects_wrapper">
+
+                <div id="projects_intro_wrapper" class="box">
+                    <h1 id="section_num">02</h1>
+                    <h2 id="projects_header">Works <mark class="cross">x</mark> Demo</h2>
+                </div>
+
+                <div id="spacer2" class="box"></div>
+
+                <div id="card_wrapper">
+                    <!--Project: Raincloud-->
+                    <div class= "main_container" onclick="window.location='https://Jichid.com/projects/raincloud';">
+                        <div id="project_raincloud" class="project"></div>
+                        <div class="content">
+                            <h2 id="project_title">Raincloud</h2>
+                            <h4 id="project_type">Python / Django</h4>
+                        </div>
+                    </div>
+                     <!--Project: Image Filtering Program-->
+                     <div class="main_container" onclick="window.location='https://Jichid.com/projects/image-filtering-program';">
+                        <div id="project_imagefiltering" class="project"></div>
+                        <div class="content">
+                            <h2 id="project_title">Image Filtering Program</h2>
+                            <h4 id="project_type">Python</h4>
+                        </div>
+                    </div>
+                    <!--Project: Tic Tac Toe-->
+                    <div class="main_container" onclick="window.location='https://Jichid.com/projects/tic-tac-toe';">
+                        <div id="project_tictactoe" class="project"></div>
+                        <div class="content">
+                            <h2 id="project_title">Tic-Tac-Toe</h2>
+                            <h4 id="project_type">Python</h4>
+                        </div>
+                    </div>
+                    <!--Project: Crypto Labs-->
+                    <div class="main_container" onclick="window.location='https://Jichid.com/projects/crypto-labs';">
+                        <div id="project_cryptolabs" class="project"></div>
+                            <div class="content">
+                                <h2 id="project_title">Crypto Labs</h2>
+                                <h4 id="project_type">React</h4>
+                            </div>
+                    </div>
+                    <!--Project: Quiz app-->
+                    <div class="main_container" onclick="window.location='https://Jichid.com/projects/quiz';">
+                        <div id="project_reactquiz" class="project"></div>
+                        <div class="content">
+                            <h2 id="project_title">Quiz</h2>
+                            <h4 id="project_type">React</h4>
+                        </div>
+                    </div>
+                    <!--Project: Sadaham Sisila-->
+                    <div class= "main_container" onclick="window.location='https://Jichid.com/projects/sadaham-sisila';">
+                        <div id="project_sadahamsisila" class="project"></div>
+                        <div class="content">
+                            <h2 id="project_title">Sadaham Sisila</h2>
+                            <h4 id="project_type">HTML / CSS / JS</h4>
+                        </div>
+                    </div>
+                    <!--Project: Boomtown Fusion Eatery-->
+                    <div class= "main_container" onclick="window.location='https://Jichid.com/projects/boomtown-fusion-eatery';">
+                        <div id="project_boomtown" class="project"></div>
+                        <div class="content">
+                            <h2 id="project_title">BoomTown Fusion Eatery</h2>
+                            <h4 id="project_type">HTML / CSS</h4>
+                        </div>
+                    </div>
+                    <!--Project: Instagram Re-design-->
+                    <div class= "main_container" onclick="window.location='https://Jichid.com/projects/instagram-redesign';">
+                        <div id="project_instagram" class="project"></div>
+                        <div class="content">
+                            <h2 id="project_title">Instagram Redesign</h2>
+                            <h4 id="project_type">HTML / CSS</h4>
+                        </div>
+                    </div>
+                    <!--Project: Lux-->
+                    <div class= "main_container" onclick="window.location='https://Jichid.com/projects/lux';">
+                        <div id="project_lux" class="project"></div>
+                        <div class="content">
+                            <h2 id="project_title">Lux</h2>
+                            <h4 id="project_type">HTML / CSS</h4>
+                        </div>
+                    </div>
+                    <!--Project: Cyberpunk 2077 Re-design-->
+                    <div class="main_container" onclick="window.location='https://Jichid.com/projects/cyberpunk-2077-web-redesign';">
+                        <div id="project_cp2077design" class="project"></div>
+                        <div class="content">
+                            <h2 id="project_title">Cyberpunk 2077 Web Mockup</h2>
+                            <h4 id="project_type">Adobe XD</h4>
+                        </div>
+                    </div>
+                    <!--Project: Alienware Case Mod-->
+                    <div class="main_container" onclick="window.location='https://Jichid.com/projects/alienware-case-mod';">
+                        <div id="project_alienware" class="project"></div>
+                        <div class="content">
+                            <h2 id="project_title">Alienware Case Mod</h2>
+                            <h4 id="project_type">Adobe Photoshop / Blender</h4>
+                        </div>
+                    </div>
+                    <!--Project: MIDI Keyboard Covers-->
+                    <div class="main_container" onclick="window.location='https://Jichid.com/projects/midi-keyboard-covers';">
+                        <div id="project_midi" class="project"></div>
+                        <div class="content">
+                            <h2 id="project_title">MIDI Keyboard Covers</h2>
+                            <h4 id="project_type">Akai MPK Mini / FL Studio</h4>
+                        </div>
+                    </div>
+                    <!--Project: Cyberpunk 2077 Art-->
+                    <div class="main_container" onclick="window.location='https://Jichid.com/projects/cyberpunk-2077-art';">
+                        <div id="project_cp2077art" class="project"></div>
+                        <div class="content">
+                            <h2 id="project_title">Cyberpunk 2077 Art</h2>
+                            <h4 id="project_type">Adobe Lightroom</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--Follow Me section-->
+        <section class="follow" id="follow_me">
+            <div class="main_contact_wrapper">
+                <div id="contact_header_wrapper" class="box">
+                    <h1 id="section_num">03</h1>
+                    <h2 id="followme_header"><mark class="follow">Follow</mark> me</h2>
+                </div>
+                <div id="spacer" class="box"></div>
+                <div id="social_wrapper" class="box">
+                    <!-- <div id="facebook" class="box" onclick="window.open('https://www.facebook.com/Jichi.Ge4/','mywindow');" &nbsp;>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" class="feather feather-facebook"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path></svg>
+                    </div>
+                    <div id="instagram" class="box" onclick="window.open('https://www.instagram.com/Jichi.Ge/','mywindow');" &nbsp;>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" class="feather feather-instagram"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg>
+                    </div> -->
+                    <div id="github" class="box" onclick="window.open('http://github.com/JichiGe','mywindow');" &nbsp;>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" class="feather feather-github"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+                    </div>
+                    <div id="linkedin" class="box" onclick="window.open('http://www.linkedin.com/in/jichi-ge/','mywindow');" &nbsp;>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" class="feather feather-linkedin"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+                    </div>
+                    <div id="email" class="box" onclick="window.open('mailto:ge.jic@northeastern.edu','mywindow');" &nbsp;>
+                        <h2 id="email_address">ge.jic@northeastern.edu</h2>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--Footer-->
+        <section class="footer" id="footer">
+            <div class="main_footer_wrapper">
+                <div id="footer_line1">
+                    <h4 id="footer_credentials">Designed and developed by <a href="http://www.linkedin.com/in/jichi-ge/" target="_blank"><mark class="footer_name">Jichi Ge</mark></a></h4>
+                </div>
+                <div id="footer_line2">
+                    <h4 id="copyright">Copyright © Jichi Ge 2023</h4>
+                </div>
+            </div>
+        </section>
+        
+        <!--Scripts-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+        <script src="js/script.js" async defer></script>
+    </body>
+</html>
